@@ -1,0 +1,40 @@
+:root {
+    --primary-bgc: #ffffff;
+    --hero-bgc: #c4c4c4;
+    --secondary-bgc: #f5f4fa;
+    --footer-bgc: #2f303a;
+    --portfolio-bgc-thumb: rgba(33, 150, 243, 0.9);
+    --bgc-work-card: rgba(47, 48, 58, 0.8);
+
+    /**
+    |============================
+    | text-cl
+    |============================
+  */
+    --primary-text-cl: #212121;
+    --secondary-text-cl: #757575;
+
+    /**
+    |============================
+    | accent-cl
+    |============================
+  */
+    --accent-text-cl: #ffffff;
+    --accent-text-cl-60: rgba(255, 255, 255, 0.6);
+    --accent-black: #000000;
+    --accent-blue: #2196f3;
+
+    --icon-social: #afb1b8;
+    --icon-customer: #afb1b8;
+    --icon-bgc: rgba(255, 255, 255, 0.1);
+
+    --bgc-btn: #188ce8;
+
+    /**
+    |============================
+    | Animation
+    |============================
+  */
+    --animation-time: 250ms;
+    --animation-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,29 @@
+.section--margin-top {
+    margin-top: 0;
+}
+
+.work-list {
+    gap: 30px;
+}
+
+.work-list__thumb {
+    position: relative;
+}
+
+.work-list__text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    padding: 27px 0;
+
+    background-color: var(--bgc-work-card);
+    color: var(--accent-text-cl);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+}

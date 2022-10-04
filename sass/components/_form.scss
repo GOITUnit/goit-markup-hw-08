@@ -1,0 +1,136 @@
+.modal-form__title {
+    display: block;
+    margin-bottom: 12px;
+
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.modal-form__label {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    color: var(--secondary-text-cl);
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
+}
+
+.modal-form__label:nth-child(5) {
+    margin-bottom: 20px;
+}
+
+.modal-form__input {
+    outline: none;
+
+    transition: border-color var(--animation-time);
+    padding: 11px 0 11px 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-form__input:focus {
+    border-color: var(--accent-blue);
+}
+
+.modal-form__icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+
+    transition: fill var(--animation-time);
+}
+
+.modal-form__input:focus + .modal-form__icon {
+    fill: var(--accent-blue);
+}
+
+.modal-form__text {
+    margin-bottom: 4px;
+}
+
+.modal-form__textarea {
+    resize: none;
+    outline: none;
+
+    transition: border-color var(--animation-time);
+
+    height: 120px;
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
+}
+
+.modal-form__textarea::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form__textarea:focus {
+    border-color: var(--accent-blue);
+}
+
+.form-policy {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 13px;
+    margin-bottom: 30px;
+}
+
+.form-policy__text {
+    color: var(--secondary-text-cl);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.form-policy__link {
+    color: var(--accent-blue);
+}
+
+.svg-check {
+    opacity: 0;
+
+    transition: opacity var(--animation-time);
+}
+
+.form-policy__check:checked + .form-policy__svg .svg-check {
+    opacity: 1;
+}
+
+.svg-uncheck {
+    transition: opacity var(--animation-time);
+}
+
+.form-policy__check:checked + .form-policy__svg .svg-uncheck {
+    opacity: 0;
+}
+
+.subscribe__form {
+    display: flex;
+
+    gap: 12px;
+}
+
+.subscribe__input {
+    outline: none;
+
+    width: 348px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--footer-bgc);
+    text-decoration-color: var(--accent-text-cl);
+    color: var(--accent-text-cl);
+    padding: 16px;
+}

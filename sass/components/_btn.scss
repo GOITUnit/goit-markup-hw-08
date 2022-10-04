@@ -1,0 +1,125 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    margin: 0;
+}
+
+.hero__btn {
+    transition: background-color var(--animation-time) var(--animation-cubic);
+
+    color: var(--accent-text-cl);
+    background-color: var(--accent-blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+    background-color: var(--bgc-btn);
+}
+
+.subscribe__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--accent-blue);
+    color: var(--accent-text-cl);
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.subscribe__btn:hover {
+    background-color: #188ce8;
+}
+
+.portfolio-btn-list {
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.portfolio-btn-list__btn {
+    transition: color var(--animation-time) var(--animation-cubic),
+        background-color var(--animation-time) var(--animation-cubic);
+
+    padding: 6px 22px;
+    border-radius: 4px;
+
+    color: currentColor;
+    background-color: var(--secondary-bgc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-btn-list__btn:hover,
+.portfolio-btn-list__btn:focus {
+    color: var(--accent-text-cl);
+    background-color: var(--accent-blue);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.modal__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    
+    transition: color var(--animation-time) var(--animation-cubic);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    background-color: inherit;
+}
+
+.modal__btn:hover,
+.modal__btn:focus {
+    color: var(--accent-blue);
+}
+
+.modal__btn:hover .modal__icon,
+.modal__btn:focus .modal__icon {
+    fill: currentColor;
+}
+
+.modal-form__btn {
+    display: block;
+    padding: 10px 52px;
+    margin: 0 auto;
+    font-weight: 700;
+    letter-spacing: .06em;
+    background-color: var(--accent-blue);
+    color: var(--accent-text-cl);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.modal-form__btn:hover,
+.modal-form__btn:focus {
+    background-color: var(--bgc-btn);
+}

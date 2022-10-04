@@ -1,0 +1,24 @@
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.thumb__text {
+    position: absolute;
+
+    left: 0;
+
+    transition: transform var(--animation-time) var(--animation-cubic);
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+
+    background-color: var(--portfolio-bgc-thumb);
+    color: var(--accent-text-cl);
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    transform: translateY(0);
+}

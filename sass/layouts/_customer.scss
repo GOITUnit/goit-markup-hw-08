@@ -1,0 +1,32 @@
+.customer-list {
+    gap: 30px;
+}
+
+.customer-list__item {
+    width: 170px;
+    height: 92px;
+}
+
+.customer-list__link {
+    transition: color var(--animation-time) var(--animation-cubic);
+    /*Была запятая*/
+    border-color: var(--animation-time) var(--animation-cubic);
+
+    color: var(--icon-customer);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid var(--icon-customer);
+    border-radius: 4px;
+}
+
+.customer-list__icon {
+    fill: currentColor;
+}
+
+.customer-list__link:hover,
+.customer-list__link:focus {
+    color: var(--accent-blue);
+    border-color: var(--accent-blue);
+}
